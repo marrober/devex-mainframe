@@ -1,0 +1,16 @@
+workshop_manifests:
+  - id: intro
+    title: Mainframe DevEx
+    labs:
+      - id: intro
+        title: Introduction
+      - id: prereq
+        title: Workshop Pre-requisites
+      - id: introductiontooc
+        title: Introduction to 'oc'
+      - id: applicationbasics
+        title: Application Basics
+      - id: deployments
+        title: Understanding Deployments and Configuration
+      - id: applicationdeploymentstrategies
+        name: Application Deployment Configurations and DevOps Approaches

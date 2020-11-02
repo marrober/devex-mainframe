@@ -1,0 +1,17 @@
+id: "innovation"
+name: "OpenShift Innovation"
+
+content:
+  url: http://labs:8080/labs
+
+vars:
+  OPENSHIFT_CONSOLE_URL: "https://console-openshift-console.mycluster.com"
+
+modules:
+  activate:
+  - serverlessserving
+  - camelk
+  - camelkocpserverlesseventing
+  - camelkocpserverlessservice
+  - servicemesh
+  
