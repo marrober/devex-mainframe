@@ -22,10 +22,10 @@ Once the project has been created (you will be given a dashboard) change the mod
 
 On the Topology page it will state 'No workloads found' - Click on 'From Dockerfile'
 
-In 'Git Repo URL' enter 'https://github.com/marrober/workshop4.git'
+In 'Git Repo URL' enter 'https://github.com/marrober/devex-mainframe.git'
 
 Open the advanced Git options by clicking on the blue link "Show Advanced Git Options". 
-In the Git Reference field enter 'mainframe' and in the Context Dir field enter '/images/terminal'. 
+In the Context Dir field enter '/images/terminal'. 
 Change the field 'DockerFile' to have the value 'Dockerfile.390'. 
 Leave all other fields as they are and hit 'Create'.
 
