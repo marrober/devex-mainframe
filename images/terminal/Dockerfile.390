@@ -1,4 +1,4 @@
-FROM quay.io/fedora/fedora:34-s390x
+FROM quay.io/fedora/fedora:32-s390x
 
 USER root
 
