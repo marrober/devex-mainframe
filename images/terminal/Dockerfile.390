@@ -4,7 +4,7 @@ USER root
 
 ENV GOPATH=/go
 
-RUN  mkdir /go && chmod 755 /go && yum install -y git golang-bin && go get github.com/yudai/gotty && yum clean all && mkdir /workspace && chmod 777 workspace
+RUN mkdir /workspace && chmod 777 workspace
 
 RUN curl -sL -o /tmp/oc.tar.gz https://mirror.openshift.com/pub/openshift-v4/clients/oc/latest/linux-s390x/oc.tar.gz && \
 tar -C /tmp -xf /tmp/oc.tar.gz --no-same-owner && \
